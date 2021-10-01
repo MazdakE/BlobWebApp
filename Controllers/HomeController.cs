@@ -30,7 +30,7 @@ namespace BlobStorageV12MVC.Controllers
 
             await foreach (var item in blobs)
             {
-                imageNames.Add(item.Name.ToString());
+                imageNames.Add(item.Name);
             }
 
 
